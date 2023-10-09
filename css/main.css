@@ -1,0 +1,789 @@
+
+/**ADDED TO REMOVE WHITESPACE**/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* P */
+
+p{
+    color: #604e4c;
+    font-weight: 400;
+}
+
+/* UNVISITED LINKS */
+a:link  {
+    text-decoration: none;
+}
+
+/* VISITED LINKS */
+a:visited {
+    text-decoration:  none;
+} 
+
+/* ABOUT */
+.about{
+    background-color: #fff;
+    text-decoration: none;
+    text-align: left;
+    margin: auto;
+    padding: 3em;
+    width: 80%;
+    overflow: hidden;
+}
+
+.about h3{
+    color: #b26b95;
+}
+
+/* CONTENT H2 */
+
+.about h2{
+    font-family: 'Sacramento', script;
+    font-size: 3em;
+    color: #b26b95 ;
+    margin-bottom: .5em;
+    font-weight: 400;
+        padding-top: .5em;
+
+}
+
+
+/* CONTENT SIDE & MAIN RESPONSIVE*/
+@media screen and (min-width: 47.5em){
+     .about .main {
+     float: left;
+     width: 60%;
+ }
+
+ /* CONTENT SIDE */
+ .about .side {
+     float: right;
+     width: 30%;
+ }
+ 
+ /* MEDIA ELEMENT IMAGE */
+ .about .image img {
+     float: left;
+     width: 28%;
+     margin-right: 5%;
+     border-radius: 50px 0px 50px 0px;
+     border: 2px solid pink;
+
+ }
+}
+
+
+
+/* END ABOUT */
+
+
+
+
+/* NEWS */
+
+/* MAIN NEWS */
+.content{
+    background-color: #fff;
+    text-decoration: none;
+    text-align: left;
+    margin: auto;
+    padding: 3em;
+    width: 80%;
+    overflow: hidden;
+}
+
+.content a{
+    color: #b26b95;
+}
+
+/* FORM */
+.row{
+    margin-bottom: 1.5em;
+}
+
+
+/* CONTENT H2 */
+
+.content h2{
+    font-family: 'Sacramento', script;
+    font-size: 3em;
+    color: #b26b95 ;
+    margin-bottom: .5em;
+    font-weight: 400;
+        padding-top: .5em;
+
+}
+
+/* SIDE H2 */
+.side h2{
+    font-size: 2.5em;
+}
+
+.side p{
+    padding-bottom: 2em;
+}
+
+/* MEDIA ELEMENT LI */
+.media-element li {
+ overflow: hidden;
+ margin-bottom: 2em;
+}
+
+/* CONTENT SIDE & MAIN RESPONSIVE*/
+@media screen and (min-width: 47.5em){
+     .content .main {
+     float: left;
+     width: 60%;
+ }
+
+ /* CONTENT SIDE */
+ .content .side {
+     float: right;
+     width: 30%;
+ }
+ 
+ /* MEDIA ELEMENT IMAGE */
+ .content .image img {
+     float: left;
+     width: 28%;
+     margin-right: 5%;
+     border-radius: 50px 0px 50px 0px;
+     border: 2px solid pink;
+    
+ }
+
+/*MEDIA ELEMENT DESCRIPTION */
+ .media-element .description {
+     float: left;
+     width: 65%;
+ }
+}
+/* END RESPONSIVE */
+
+/* BREADCRUMB */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: transparent;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+/* BREADCRUMB BORDER */
+p.double {
+    border-style: double;
+}
+
+/* BREADCRUMB LI */
+ul.breadcrumb li {
+    display: inline;
+}
+
+/* SYMBOL */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: #f7bed7;
+    content: "•\00a0";
+}
+
+ul.breadcrumb li a {
+    color: #b26b95;
+    text-decoration: none;
+}
+
+/* BREADCRUMB HOVER */
+ul.breadcrumb li a:hover {
+    color: #f7bed7;
+    text-decoration: underline;
+}
+
+/* NEWS COL */
+.news-col{
+    background-color: transparent;
+    overflow: hidden;
+    text-align: left;
+    float: left;
+    padding: 0;
+    margin: 5em;
+    width: 30%;
+}
+
+/* wrapper */
+.news-wrapper{
+    background-color: transparent;
+}
+
+/* H1 */
+
+.news h1{
+    color: #b26b95;
+    font-family: 'Sacramento', script;
+    font-size: 2.5em;
+}
+
+.news-col:nth-child(2){
+    margin-top: 6em;
+    margin-right: 10em;
+    padding: 0;
+}
+
+/* IMG */
+.news img, .cupcake img{
+    width: 25%;
+    float: left;
+    padding: 1.5em;
+}
+
+
+/* FORM BUTTON */
+form button{
+  border: 0;
+  line-height: 2;
+  font-size: 1em;
+  border-radius: 5px;
+  padding: 0 10px;
+  background-color: #f7bed7;
+}
+
+/* media screen */
+
+@media screen and (min-width: 30em){
+  .news img{
+    width: 25%;
+    float: left;
+  }
+  
+  .news{
+    float: left;
+    width: 70%
+    margin-right:
+}
+
+.news-col{
+    width: 35%;
+    overflow: hidden;
+}
+}
+
+.news .news-col:nth-child(2) {
+float: right; }
+
+/* END NEWS */
+
+/* UL */
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.content-products p{
+    text-align: left;
+}
+
+.content-products h3{
+    padding: .5em;
+    color: #535353;
+    margin-bottom: 2em;
+}
+.content-products h2{
+    font-family: 'Sacramento', script;
+    font-size: 3em;
+    color: #b26b95 ;
+    margin-bottom: .5em;
+    font-weight: 400;
+    padding-top: .5em;
+}
+
+/** UL LI **/
+.secondary-nav li, .social-media li, header nav li{
+  display: inline-block;
+}
+
+
+/** BODY **/
+body {
+    /*font-family: 'Cutive Mono', monospace;*/
+    font-family: 'Cutive', serif;
+    font-weight: 400;
+    line-height: 1.5;
+    /** When I remove text-align" why does my content go off center? 
+    Is there a way to center my content without using this? **/
+    text-align: center;
+
+}
+
+/** HEADER **/
+header{
+    background-color: #fff6fb;
+    /* padding: 1em 0 0 0; */
+    background: url(../img/food_2.png);
+    overflow: hidden;
+}
+
+
+/*** HEADER MEDIA QUERY***/
+@media screen and (min-width: 67.5em){
+header img{
+    width: 50%;
+    float: left;
+    text-align: left;
+    line-height: 50px;
+}
+
+header nav ul{
+    width: 50%;
+    float: right;
+    background-color: transparent;
+    line-height: 120px;
+    padding: 2em;
+
+}
+}
+/**** END HEADER MEDIA QUERY ****/
+
+
+
+/** HEADER H1 **/
+header p{
+    /*font-family: "Sacramento", script;*/
+    text-align:center;
+    padding: 2em 0;
+}
+
+/* HEADER  IMG */
+header img{
+    padding: 1em 0;
+}
+
+/** PRIMARY NAV **/
+header nav{
+    background-color: #ffe3f3;
+}
+
+/* HEADER NAV UL */
+header nav ul{
+    padding: 0;
+}
+/* HEADER NAV LI */
+
+header nav li{
+    text-decoration: none;
+    padding: 1em ;
+}
+
+
+
+/* HEADER NAV A */
+header nav a{
+    color: #b26b95;
+}
+
+/** HEADER NAV A:HOVER **/
+
+header nav a:hover{ 
+    color: white;
+ }
+
+/* HERO A (COULD NOT STYLE WITH HEADER NAV A. 
+INVESTIGATE? */
+.hero a{
+    color: #b26b95;
+}
+
+/** HEADER NAV A:HOVER **/
+
+.hero a:hover{ 
+    color: #604e4c;
+ }
+ 
+
+/** WRAPPER **/
+.wrapper {
+    width: 80%;
+    padding: 0 10%;
+}
+
+/** HERO **/
+.hero {
+    padding: 3em;
+    color: #fff;
+    /* to not repeat put no-repeat
+    to start from different angle put in top right or top center etc
+    ex. background: url(../img/food_1.png) no-repeat top center; 
+    use ../ to tell CSS to go into a different folder
+    */
+}
+
+/* HERO IMAGE */
+.hero-image{
+     background: url(../img/pastel_bakery_2.jpg);
+     width: auto;
+     background-position: bottom left;
+     background-size: cover;
+
+}
+
+/** HERO H1 & HERO P  **/
+.hero h1, .hero p{
+    font-family: "Sacramento", script;
+    font-size: 6em;
+    font-weight: 400;
+    color: #fff;;
+    margin: 0;
+    padding: .25em 0;
+    text-align: center;
+    line-height: 1;
+}
+
+
+/*** HEADER MEDIA QUERY***/
+@media screen and (min-width: 67.5em){
+.hero h1 {
+    font-family: "Sacramento", script;
+    font-size: 8em;
+    font-weight: 400;
+    color: #fff;;
+    margin: 0;
+    padding: .25em 0;
+    text-align: center;
+}
+
+}
+/**** END HEADER MEDIA QUERY ****/
+
+
+/** MAIN CONTENT-HOME **/
+.content-home {
+    background-color: #fff;
+    padding: 3em 0;
+    margin: auto;
+    /* BACKGROUND */
+    background: url(../img/dots_1.png);
+    overflow: hidden;
+}
+
+/** 
+START PRODUCTS PAGE CSS
+**/
+
+/** CONTENT PRODUCTS WRAPPER**/
+.content-products .wrapper{
+    padding: 2em;
+    width: 80%;
+    margin: auto;
+    background-color: transparent;
+}
+
+
+
+/** CONTENT PRODUCTS UL **/
+.content-products ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+/** CONTENT PRODUCTS IMG **/
+.content-products li img{
+    width: 100%;
+    margin: auto;
+}
+
+/** CONTENT PRODUCTS LI H4 **/
+.content-products li h4{
+    background-color: #b26b95;
+    color: #fff;
+    padding: .5em;
+    font-weight: 400;
+}
+
+/** CONTENT PRODUCTS P **/
+.content-products li p, .content-products p{
+    padding: 1em 0;
+    font-weight: 400;
+    font-size: 1em;
+    color: #535353;
+
+}
+
+/** CONTENT-PRODUCTS H2 **/
+.content-products h2{
+    font-family: 'Sacramento', script;
+    font-size: 3em;
+    color: #b26b95 ;
+    margin-bottom: .5em;
+    font-weight: 400;
+        padding-top: .5em;
+
+}
+
+/** CONTENT PRODUCTS MED SCREEN **/
+/** why is this not centered when enabled?**/
+@media screen and (min-width: 47.5em){
+   
+    .content-products li{
+        width: 48%;
+        margin-right: 2%;
+        float: left;
+        margin-bottom: 3em;
+    }
+}
+
+
+/** CONTENT PRODUCTS LARGE SCREEN **/
+@media screen and (min-width: 67.5em){
+   
+    .content-products li{
+        width: 31.3333%;
+        margin-right: 2%;
+    }
+
+    .content-products li img{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+/** 
+END PRODUCTS PAGE CSS 
+**/
+
+/** CONTENT-HOME WRAPPER **/
+.content-home .wrapper /*.col */{
+   margin: auto;
+}
+
+
+/* COL */
+.col {
+  width: 80%;
+  /*padding: 2em 5%;*/
+  margin: 2em auto;
+  overflow: hidden;
+  background-color: #f7bed7;
+
+}
+
+/* HERO COL */
+.hero .col {
+  width: 80%;
+  /*padding: 2em 5%;*/
+  margin: 2em auto;
+  overflow: hidden;
+  background-color: transparent;
+  border-radius: 10px 10px;
+
+
+}
+
+
+/* CONTENT-HOME WRAPPER IMG */
+.content-home .wrapper img {
+  width: 60%;
+  float: center;
+  margin: auto;
+  border-radius: 100%;
+  padding: 1em 0;
+}
+
+/* COL h4*/
+.col h4 {
+  margin: 0;
+  padding-top: 1em;
+}
+
+ /** CONTENT HOME H4 **/
+.content-home h4{
+    background-color: #b26b95;
+    color: #ffffff;
+    padding: 1em 0;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+/** CONTENT HOME P **/
+.content-home p{
+    /*
+    padding: 2em 1em 2em 8em;
+    text-align: right;
+    */
+    padding: 1em .8em;
+    min-height: 8em;
+
+   
+}
+
+/* MEDIA SCREEN QUERIES *
+/* WIDESCREEN */
+@media screen and (min-width: 67.5em){
+.content-home .col{
+    width: 31.3333%;
+    float: left;
+    min-height: 28em;
+    margin-right: 2%;
+}
+}
+
+/** LOGISTICS **/
+.logistics {
+    /*background-color: #fff6fb;*/
+    background: url(../img/food_2.png);
+    overflow: hidden;
+    padding: 3em 0;
+}
+
+/** LOGISTICS MEDIA QUERY **/
+@media screen and (min-width: 67.5em){
+
+    .logistics .col{
+        width: 31.3333%;
+        float: left;
+         margin-right: 2%;
+        background-color: transparent;
+        text-align: center;
+    }
+
+    .logistics img{
+        border-radius: 50%;
+    }
+}
+
+
+@media screen and (min-width: 47.5em){
+ .content-products li:nth-child(3) {
+ clear: left;
+ }
+}
+@media screen and (min-width: 67.5em){
+ .content-products li:nth-child(3) {
+ clear: none;
+ }
+ .content-products li:nth-child(4) {
+ clear: left;
+ }
+}
+
+/** LOGISTICS H2 **/
+.logistics h2{
+    background-color: #f7bed7;
+    color: white;
+    padding: 1em 0;
+    border-radius: 0;
+}
+
+/** LOGISTICS P **/
+.logistics p{
+    padding: 1em 0;
+    font-weight: 400;
+    font-size: 1em;
+    color: #b26b95;
+    background-color: white;
+}
+
+/* LOGISTICS H3*/
+.logistics h3{
+    font-size: 1.2em;
+    padding-top: .5em;
+    color: #b26b95;
+    text-decoration: underline;
+    font-weight: 400;
+        background-color: white;
+
+}
+
+/** LOGISTICS IMG **/
+.logistics .wrapper img{
+    border-radius: 50%;
+    margin: auto;
+    padding-top: 2em;
+    width: 100%;
+    height: auto;
+
+}
+
+
+/** FOOTER **/
+.footer{
+    background-color: #b26b95;
+    padding: 2em;
+    overflow: hidden;
+
+}
+
+/* WIDESCREEN */
+@media screen and (min-width: 67.5em){
+.footer .copyright {
+    width: 33.3333%;
+    float: left;
+ }
+
+ .social-media{
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+}
+
+.secondary-nav {
+    width: 33.3333%;
+    float: right;
+ }
+
+}
+
+/** FOOTER COPYRIGHT **/
+.footer .copyright{
+    padding: 1em 0;
+    margin-bottom: .5em;
+    font-size: 1em;
+    color: #f7bed7;
+}
+ 
+/** SECONDARY NAV **/
+.secondary-nav{
+    /* background-color: #883b68; */
+    /* padding: 3em 0; */
+    font-size: 1em;
+
+}
+
+/** SECONDARY NAV LI **/
+
+.secondary-nav li{
+    text-decoration: none;
+    padding: 1em ;
+}
+
+
+/* SECONDARY NAV A */
+.secondary-nav a{
+    color: #f7bed7;
+}
+
+/** SECONDARY NAV A:HOVER **/
+.secondary-nav a:hover{ 
+    color: white;
+ }
+
+/** SOCIAL MEDIA **/
+
+.social-media{
+    /*padding: 1em 0;*/
+    font-size: 3em;
+}
+
+
+/** FACEBOOK SQUARE **/
+
+.fa-facebook-square, .fa-instagram, .fa-twitter-square{
+    color: #f7bed7;
+}
